@@ -66,7 +66,7 @@ public class Main {
     }
     public static void writeExcel(List<Book> bookList){
          String[] titleArray = {"序号", "书名", "评分", "评价人数", "作者", "出版社","出版日期","价格"};
-        String fileName = "E:/Test.xls";
+        String fileName = "Test.xls";
         String sheetName = "Sheet1";
         HSSFWorkbook workbook = new HSSFWorkbook();
         HSSFSheet sheet = workbook.createSheet(sheetName);
