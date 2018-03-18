@@ -113,7 +113,8 @@ public class Main {
             //设置连接超时时间和读取超时时间
             conn.setConnectTimeout(10000);
             conn.setReadTimeout(10000);
-            conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+            conn.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 3.0.04506)");
+            //conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
             //连接服务器
             conn.connect();
             // 取得输入流，并使用Reader读取
